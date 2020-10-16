@@ -13,13 +13,13 @@ function Cards({}: Props): ReactElement {
         <div className="cards__wrapper">
           <ul className="cards__items">
             <CardItem
-              src="images/img-9.jpg"
+              src="%PUBLIC_URL%/images/img-9.jpg"
               text="Explore the hidden waterfall"
               label={'Adventure'}
               path="/services"
             />
             <CardItem
-              src="images/img-2.jpg"
+              src="%PUBLIC_URL%/images/img-2.jpg"
               text="Travel through the Islands of Bali"
               label={'Luxury'}
               path="/services"
@@ -27,19 +27,19 @@ function Cards({}: Props): ReactElement {
           </ul>
           <ul className="cards__items">
             <CardItem
-              src="images/img-1.jpg"
+              src="%PUBLIC_URL%/images/img-1.jpg"
               text="Some other text here 1"
               label={'Adventure'}
               path="/services"
             />
             <CardItem
-              src="images/img-3.jpg"
+              src="%PUBLIC_URL%/images/img-3.jpg"
               text="Some other text here 2"
               label={'Beach'}
               path="/services"
             />
             <CardItem
-              src="images/img-6.jpg"
+              src="%PUBLIC_URL%/images/img-6.jpg"
               text="Some other text here 3"
               label={'City'}
               path="/services"
