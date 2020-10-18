@@ -10,7 +10,8 @@ import Products from './pages/Products';
 function App() {
   return (
     <>
-      <BrowserRouter basename={process.env.PUBLIC_URL}>
+      {/* <BrowserRouter basename={process.env.PUBLIC_URL}> */}
+      <BrowserRouter>
         <Navbar />
         <Switch>
           <Route path="/" exact component={Home} />
